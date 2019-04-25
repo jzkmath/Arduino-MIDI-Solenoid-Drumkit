@@ -44,7 +44,7 @@ void setup() {
   //set solenoids as outputs
   for (int s = 0; s < NUM_SOLENOIDS; s++)
   {
-    pinMode(s, OUTPUT);
+    pinMode(solenoidPins[s], OUTPUT);
   }
  
   MIDI.begin(MIDI_CHANNEL_OMNI); //listen to all MIDI channels
