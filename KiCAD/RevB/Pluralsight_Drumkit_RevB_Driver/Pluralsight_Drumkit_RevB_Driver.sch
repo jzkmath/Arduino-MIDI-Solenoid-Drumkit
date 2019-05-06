@@ -1,0 +1,3228 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Solenoid Driver Board"
+Date "2019-05-06"
+Rev "B"
+Comp "Pluralsight"
+Comment1 "By: Jonathan Kayne"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even J25
+U 1 1 5CD05B9D
+P 9975 1800
+F 0 "J25" H 10025 2700 50  0000 C CNN
+F 1 "Interface" H 10025 800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" H 9975 1800 50  0001 C CNN
+F 3 "~" H 9975 1800 50  0001 C CNN
+	1    9975 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR064
+U 1 1 5CD088BC
+P 10025 2975
+F 0 "#PWR064" H 10025 2825 50  0001 C CNN
+F 1 "+5V" H 10025 3115 50  0000 C CNN
+F 2 "" H 10025 2975 50  0001 C CNN
+F 3 "" H 10025 2975 50  0001 C CNN
+	1    10025 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR063
+U 1 1 5CD0B9F5
+P 10025 725
+F 0 "#PWR063" H 10025 475 50  0001 C CNN
+F 1 "GND" H 10025 575 50  0000 C CNN
+F 2 "" H 10025 725 50  0001 C CNN
+F 3 "" H 10025 725 50  0001 C CNN
+	1    10025 725 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9775 1000 9725 1000
+Wire Wire Line
+	9725 1000 9725 825 
+Wire Wire Line
+	9725 825  10025 825 
+Wire Wire Line
+	10325 825  10325 1000
+Wire Wire Line
+	10325 1000 10275 1000
+Wire Wire Line
+	10025 825  10025 725 
+Connection ~ 10025 825 
+Wire Wire Line
+	10025 825  10325 825 
+Wire Wire Line
+	9775 2700 9725 2700
+Wire Wire Line
+	9725 2700 9725 2900
+Wire Wire Line
+	9725 2900 10025 2900
+Wire Wire Line
+	10325 2900 10325 2700
+Wire Wire Line
+	10325 2700 10275 2700
+Wire Wire Line
+	10025 2975 10025 2900
+Connection ~ 10025 2900
+Wire Wire Line
+	10025 2900 10325 2900
+Text GLabel 9700 1100 0    50   Output ~ 0
+S1
+Text GLabel 9700 1200 0    50   Output ~ 0
+S3
+Text GLabel 9700 1300 0    50   Output ~ 0
+S5
+Text GLabel 9700 1400 0    50   Output ~ 0
+S7
+Text GLabel 9700 1500 0    50   Output ~ 0
+S9
+Text GLabel 9700 1600 0    50   Output ~ 0
+S11
+Text GLabel 9700 1700 0    50   Output ~ 0
+S13
+Text GLabel 9700 1800 0    50   Output ~ 0
+S15
+Text GLabel 9700 1900 0    50   Output ~ 0
+S17
+Text GLabel 9700 2000 0    50   Output ~ 0
+S19
+Text GLabel 9700 2100 0    50   Output ~ 0
+S21
+Text GLabel 9700 2200 0    50   Output ~ 0
+S23
+Text GLabel 9700 2300 0    50   Output ~ 0
+S25
+Text GLabel 9700 2400 0    50   Output ~ 0
+S27
+Text GLabel 9700 2500 0    50   Output ~ 0
+S29
+Text GLabel 9700 2600 0    50   Output ~ 0
+S31
+Text GLabel 10350 1100 2    50   Output ~ 0
+S2
+Text GLabel 10350 1200 2    50   Output ~ 0
+S4
+Text GLabel 10350 1300 2    50   Output ~ 0
+S6
+Text GLabel 10350 1400 2    50   Output ~ 0
+S8
+Text GLabel 10350 1500 2    50   Output ~ 0
+S10
+Text GLabel 10350 1600 2    50   Output ~ 0
+S12
+Text GLabel 10350 1700 2    50   Output ~ 0
+S14
+Text GLabel 10350 1800 2    50   Output ~ 0
+S16
+Text GLabel 10350 1900 2    50   Output ~ 0
+S18
+Text GLabel 10350 2000 2    50   Output ~ 0
+S20
+Text GLabel 10350 2100 2    50   Output ~ 0
+S22
+Text GLabel 10350 2200 2    50   Output ~ 0
+S24
+Text GLabel 10350 2300 2    50   Output ~ 0
+S26
+Text GLabel 10350 2400 2    50   Output ~ 0
+S28
+Text GLabel 10350 2500 2    50   Output ~ 0
+S30
+Text GLabel 10350 2600 2    50   Output ~ 0
+S32
+Wire Wire Line
+	10275 2600 10350 2600
+Wire Wire Line
+	10350 2500 10275 2500
+Wire Wire Line
+	10275 2400 10350 2400
+Wire Wire Line
+	10275 2300 10350 2300
+Wire Wire Line
+	10275 2200 10350 2200
+Wire Wire Line
+	10275 2100 10350 2100
+Wire Wire Line
+	10350 2000 10275 2000
+Wire Wire Line
+	10275 1900 10350 1900
+Wire Wire Line
+	10275 1800 10350 1800
+Wire Wire Line
+	10275 1700 10350 1700
+Wire Wire Line
+	10275 1600 10350 1600
+Wire Wire Line
+	10275 1500 10350 1500
+Wire Wire Line
+	9700 2600 9775 2600
+Wire Wire Line
+	9775 2500 9700 2500
+Wire Wire Line
+	9700 2400 9775 2400
+Wire Wire Line
+	9700 2300 9775 2300
+Wire Wire Line
+	9700 2200 9775 2200
+Wire Wire Line
+	9700 2100 9775 2100
+Wire Wire Line
+	9700 2000 9775 2000
+Wire Wire Line
+	9700 1900 9775 1900
+Wire Wire Line
+	9700 1800 9775 1800
+Wire Wire Line
+	9700 1700 9775 1700
+Wire Wire Line
+	9700 1600 9775 1600
+Wire Wire Line
+	9700 1500 9775 1500
+Wire Wire Line
+	9700 1400 9775 1400
+Wire Wire Line
+	9700 1300 9775 1300
+Wire Wire Line
+	9700 1200 9775 1200
+Wire Wire Line
+	9700 1100 9775 1100
+Wire Wire Line
+	10275 1100 10350 1100
+Wire Wire Line
+	10350 1200 10275 1200
+Wire Wire Line
+	10275 1300 10350 1300
+Wire Wire Line
+	10275 1400 10350 1400
+$Comp
+L Transistor_Array:ULN2003A U1
+U 1 1 5CD22DA3
+P 1400 1825
+F 0 "U1" H 1400 2450 50  0000 C CNN
+F 1 "ULN2003A" H 1400 2375 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 1450 1275 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 1500 1625 50  0001 C CNN
+	1    1400 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5CD2529D
+P 1400 2425
+F 0 "#PWR01" H 1400 2175 50  0001 C CNN
+F 1 "GND" H 1400 2275 50  0000 C CNN
+F 2 "" H 1400 2425 50  0001 C CNN
+F 3 "" H 1400 2425 50  0001 C CNN
+	1    1400 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR05
+U 1 1 5CD259A9
+P 1850 1350
+F 0 "#PWR05" H 1850 1200 50  0001 C CNN
+F 1 "+12V" H 1850 1490 50  0000 C CNN
+F 2 "" H 1850 1350 50  0001 C CNN
+F 3 "" H 1850 1350 50  0001 C CNN
+	1    1850 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1350 1850 1425
+Wire Wire Line
+	1850 1425 1800 1425
+Wire Wire Line
+	1000 1925 950  1925
+Wire Wire Line
+	950  1925 950  1825
+Wire Wire Line
+	950  1625 1000 1625
+Wire Wire Line
+	1000 1725 950  1725
+Connection ~ 950  1725
+Wire Wire Line
+	950  1725 950  1625
+Wire Wire Line
+	1000 1825 950  1825
+Connection ~ 950  1825
+Wire Wire Line
+	950  1825 950  1775
+Wire Wire Line
+	1800 1925 1850 1925
+Wire Wire Line
+	1850 1925 1850 1825
+Wire Wire Line
+	1850 1625 1800 1625
+Wire Wire Line
+	1800 1725 1850 1725
+Connection ~ 1850 1725
+Wire Wire Line
+	1850 1725 1850 1625
+Wire Wire Line
+	1800 1825 1850 1825
+Connection ~ 1850 1825
+Wire Wire Line
+	1850 1825 1850 1775
+$Comp
+L Transistor_Array:ULN2003A U2
+U 1 1 5CD3098B
+P 1400 3325
+F 0 "U2" H 1400 3950 50  0000 C CNN
+F 1 "ULN2003A" H 1400 3875 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 1450 2775 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 1500 3125 50  0001 C CNN
+	1    1400 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5CD30995
+P 1400 3925
+F 0 "#PWR02" H 1400 3675 50  0001 C CNN
+F 1 "GND" H 1400 3775 50  0000 C CNN
+F 2 "" H 1400 3925 50  0001 C CNN
+F 3 "" H 1400 3925 50  0001 C CNN
+	1    1400 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR06
+U 1 1 5CD3099F
+P 1850 2850
+F 0 "#PWR06" H 1850 2700 50  0001 C CNN
+F 1 "+12V" H 1850 2990 50  0000 C CNN
+F 2 "" H 1850 2850 50  0001 C CNN
+F 3 "" H 1850 2850 50  0001 C CNN
+	1    1850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2850 1850 2925
+Wire Wire Line
+	1850 2925 1800 2925
+Wire Wire Line
+	1000 3425 950  3425
+Wire Wire Line
+	950  3425 950  3375
+Wire Wire Line
+	1000 3225 950  3225
+Wire Wire Line
+	1000 3325 950  3325
+Connection ~ 950  3325
+Wire Wire Line
+	950  3325 950  3225
+Wire Wire Line
+	1800 3425 1850 3425
+Wire Wire Line
+	1850 3425 1850 3375
+Wire Wire Line
+	1800 3225 1850 3225
+Wire Wire Line
+	1800 3325 1850 3325
+Connection ~ 1850 3325
+Wire Wire Line
+	1850 3325 1850 3225
+Wire Wire Line
+	1000 2025 950  2025
+Wire Wire Line
+	950  2025 950  2125
+Wire Wire Line
+	950  2225 1000 2225
+Wire Wire Line
+	1000 2125 950  2125
+Connection ~ 950  2125
+Wire Wire Line
+	950  2125 950  2225
+Wire Wire Line
+	1800 2025 1850 2025
+Wire Wire Line
+	1850 2025 1850 2125
+Wire Wire Line
+	1850 2225 1800 2225
+Wire Wire Line
+	1800 2125 1850 2125
+Connection ~ 1850 2125
+Wire Wire Line
+	1850 2125 1850 2225
+Wire Wire Line
+	950  3425 950  3525
+Wire Wire Line
+	950  3525 1000 3525
+Connection ~ 950  3425
+Wire Wire Line
+	1800 3525 1850 3525
+Wire Wire Line
+	1850 3525 1850 3425
+Connection ~ 1850 3425
+Wire Wire Line
+	1000 3625 950  3625
+Wire Wire Line
+	950  3625 950  3675
+Wire Wire Line
+	950  3725 1000 3725
+Wire Wire Line
+	1800 3625 1850 3625
+Wire Wire Line
+	1850 3625 1850 3675
+Wire Wire Line
+	1850 3725 1800 3725
+$Comp
+L Transistor_Array:ULN2003A U3
+U 1 1 5CD4FEF5
+P 1400 4800
+F 0 "U3" H 1400 5425 50  0000 C CNN
+F 1 "ULN2003A" H 1400 5350 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 1450 4250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 1500 4600 50  0001 C CNN
+	1    1400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5CD4FEFF
+P 1400 5400
+F 0 "#PWR03" H 1400 5150 50  0001 C CNN
+F 1 "GND" H 1400 5250 50  0000 C CNN
+F 2 "" H 1400 5400 50  0001 C CNN
+F 3 "" H 1400 5400 50  0001 C CNN
+	1    1400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR07
+U 1 1 5CD4FF09
+P 1850 4325
+F 0 "#PWR07" H 1850 4175 50  0001 C CNN
+F 1 "+12V" H 1850 4465 50  0000 C CNN
+F 2 "" H 1850 4325 50  0001 C CNN
+F 3 "" H 1850 4325 50  0001 C CNN
+	1    1850 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4325 1850 4400
+Wire Wire Line
+	1850 4400 1800 4400
+Wire Wire Line
+	1000 4900 950  4900
+Wire Wire Line
+	950  4900 950  4800
+Wire Wire Line
+	950  4600 1000 4600
+Wire Wire Line
+	1000 4700 950  4700
+Wire Wire Line
+	1000 4800 950  4800
+Wire Wire Line
+	1800 4900 1850 4900
+Wire Wire Line
+	1850 4900 1850 4800
+Wire Wire Line
+	1850 4600 1800 4600
+Wire Wire Line
+	1800 4700 1850 4700
+Wire Wire Line
+	1800 4800 1850 4800
+Wire Wire Line
+	950  4900 950  4950
+Wire Wire Line
+	950  5000 1000 5000
+Connection ~ 950  4900
+Wire Wire Line
+	1800 5000 1850 5000
+Wire Wire Line
+	1850 5000 1850 4950
+Connection ~ 1850 4900
+Wire Wire Line
+	1000 5100 950  5100
+Wire Wire Line
+	1800 5100 1850 5100
+Wire Wire Line
+	1850 4600 1850 4650
+Wire Wire Line
+	950  5100 950  5000
+Connection ~ 950  5000
+Wire Wire Line
+	1850 5100 1850 5000
+Connection ~ 1850 5000
+$Comp
+L Transistor_Array:ULN2003A U4
+U 1 1 5CD6E963
+P 1400 6275
+F 0 "U4" H 1400 6900 50  0000 C CNN
+F 1 "ULN2003A" H 1400 6825 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 1450 5725 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 1500 6075 50  0001 C CNN
+	1    1400 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CD6E96D
+P 1400 6875
+F 0 "#PWR04" H 1400 6625 50  0001 C CNN
+F 1 "GND" H 1400 6725 50  0000 C CNN
+F 2 "" H 1400 6875 50  0001 C CNN
+F 3 "" H 1400 6875 50  0001 C CNN
+	1    1400 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR08
+U 1 1 5CD6E977
+P 1850 5800
+F 0 "#PWR08" H 1850 5650 50  0001 C CNN
+F 1 "+12V" H 1850 5940 50  0000 C CNN
+F 2 "" H 1850 5800 50  0001 C CNN
+F 3 "" H 1850 5800 50  0001 C CNN
+	1    1850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5800 1850 5875
+Wire Wire Line
+	1850 5875 1800 5875
+Wire Wire Line
+	1000 6375 950  6375
+Wire Wire Line
+	950  6075 1000 6075
+Wire Wire Line
+	1000 6175 950  6175
+Wire Wire Line
+	1000 6275 950  6275
+Wire Wire Line
+	1800 6375 1850 6375
+Wire Wire Line
+	1850 6075 1800 6075
+Wire Wire Line
+	1800 6175 1850 6175
+Wire Wire Line
+	1800 6275 1850 6275
+Wire Wire Line
+	1850 6275 1850 6175
+Wire Wire Line
+	950  6375 950  6475
+Wire Wire Line
+	950  6475 1000 6475
+Wire Wire Line
+	1800 6475 1850 6475
+Wire Wire Line
+	1850 6475 1850 6375
+Wire Wire Line
+	1000 6575 950  6575
+Wire Wire Line
+	950  6575 950  6675
+Wire Wire Line
+	950  6675 1000 6675
+Wire Wire Line
+	1800 6575 1850 6575
+Wire Wire Line
+	1850 6575 1850 6675
+Wire Wire Line
+	1850 6675 1800 6675
+Wire Wire Line
+	950  6075 950  6175
+Connection ~ 950  6175
+Wire Wire Line
+	950  6175 950  6275
+Wire Wire Line
+	1850 6075 1850 6175
+Connection ~ 1850 6175
+Wire Wire Line
+	950  6575 950  6525
+Connection ~ 950  6575
+Connection ~ 950  6475
+Wire Wire Line
+	1850 6575 1850 6525
+Connection ~ 1850 6575
+Connection ~ 1850 6475
+Text GLabel 900  1775 0    50   Input ~ 0
+S1
+Text GLabel 900  2125 0    50   Input ~ 0
+S2
+Text GLabel 900  3375 0    50   Input ~ 0
+S3
+Text GLabel 900  3675 0    50   Input ~ 0
+S4
+Text GLabel 900  4950 0    50   Input ~ 0
+S5
+Text GLabel 900  5200 0    50   Input ~ 0
+S6
+Text GLabel 900  6525 0    50   Input ~ 0
+S7
+Wire Wire Line
+	900  1775 950  1775
+Connection ~ 950  1775
+Wire Wire Line
+	950  1775 950  1725
+Wire Wire Line
+	900  2125 950  2125
+Wire Wire Line
+	900  3375 950  3375
+Connection ~ 950  3375
+Wire Wire Line
+	950  3375 950  3325
+Wire Wire Line
+	900  3675 950  3675
+Connection ~ 950  3675
+Wire Wire Line
+	950  3675 950  3725
+Wire Wire Line
+	900  4950 950  4950
+Connection ~ 950  4950
+Wire Wire Line
+	950  4950 950  5000
+Wire Wire Line
+	900  5200 950  5200
+Wire Wire Line
+	900  6525 950  6525
+Connection ~ 950  6525
+Wire Wire Line
+	950  6525 950  6475
+Text GLabel 1900 1775 2    50   Output ~ 0
+O1
+Text GLabel 1900 2125 2    50   Output ~ 0
+O2
+Text GLabel 1900 3375 2    50   Output ~ 0
+O3
+Text GLabel 1900 3675 2    50   Output ~ 0
+O4
+Text GLabel 1900 4950 2    50   Output ~ 0
+O5
+Text GLabel 1900 5200 2    50   Output ~ 0
+O6
+Text GLabel 1900 6525 2    50   Output ~ 0
+O7
+Wire Wire Line
+	1900 6525 1850 6525
+Connection ~ 1850 6525
+Wire Wire Line
+	1850 6525 1850 6475
+Wire Wire Line
+	1800 5200 1850 5200
+Wire Wire Line
+	1900 4950 1850 4950
+Connection ~ 1850 4950
+Wire Wire Line
+	1850 4950 1850 4900
+Connection ~ 1850 4650
+Wire Wire Line
+	1850 4650 1850 4700
+Wire Wire Line
+	1850 3675 1900 3675
+Connection ~ 1850 3675
+Wire Wire Line
+	1850 3675 1850 3725
+Wire Wire Line
+	1900 3375 1850 3375
+Connection ~ 1850 3375
+Wire Wire Line
+	1850 3375 1850 3325
+Wire Wire Line
+	1900 2125 1850 2125
+Wire Wire Line
+	1900 1775 1850 1775
+Connection ~ 1850 1775
+Wire Wire Line
+	1850 1775 1850 1725
+Wire Wire Line
+	950  2225 950  3125
+Connection ~ 950  2225
+Wire Wire Line
+	950  3125 1000 3125
+Wire Wire Line
+	1975 3125 1975 2275
+Wire Wire Line
+	1975 2275 1850 2275
+Wire Wire Line
+	1850 2275 1850 2225
+Wire Wire Line
+	1800 3125 1975 3125
+Connection ~ 1850 2225
+Wire Wire Line
+	950  4600 950  3725
+Connection ~ 950  4600
+Connection ~ 950  3725
+Wire Wire Line
+	950  4600 950  4700
+Wire Wire Line
+	1975 4650 1975 3800
+Wire Wire Line
+	1975 3800 1850 3800
+Wire Wire Line
+	1850 3800 1850 3725
+Wire Wire Line
+	1850 4650 1975 4650
+Connection ~ 1850 3725
+Wire Wire Line
+	950  6075 950  5200
+Connection ~ 950  6075
+Connection ~ 950  5200
+Wire Wire Line
+	950  5200 1000 5200
+Wire Wire Line
+	1950 6175 1950 5375
+Wire Wire Line
+	1950 5375 1850 5375
+Wire Wire Line
+	1850 5375 1850 5200
+Wire Wire Line
+	1850 6175 1950 6175
+Connection ~ 1850 5200
+Wire Wire Line
+	1850 5200 1900 5200
+$Comp
+L Transistor_Array:ULN2003A U5
+U 1 1 5D375EBB
+P 2825 1825
+F 0 "U5" H 2825 2450 50  0000 C CNN
+F 1 "ULN2003A" H 2825 2375 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2875 1275 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 2925 1625 50  0001 C CNN
+	1    2825 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5D375EC5
+P 2825 2425
+F 0 "#PWR09" H 2825 2175 50  0001 C CNN
+F 1 "GND" H 2825 2275 50  0000 C CNN
+F 2 "" H 2825 2425 50  0001 C CNN
+F 3 "" H 2825 2425 50  0001 C CNN
+	1    2825 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR013
+U 1 1 5D375ECF
+P 3275 1350
+F 0 "#PWR013" H 3275 1200 50  0001 C CNN
+F 1 "+12V" H 3275 1490 50  0000 C CNN
+F 2 "" H 3275 1350 50  0001 C CNN
+F 3 "" H 3275 1350 50  0001 C CNN
+	1    3275 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 1350 3275 1425
+Wire Wire Line
+	3275 1425 3225 1425
+Wire Wire Line
+	2425 1925 2375 1925
+Wire Wire Line
+	2375 1925 2375 1825
+Wire Wire Line
+	2375 1625 2425 1625
+Wire Wire Line
+	2425 1725 2375 1725
+Connection ~ 2375 1725
+Wire Wire Line
+	2375 1725 2375 1625
+Wire Wire Line
+	2425 1825 2375 1825
+Connection ~ 2375 1825
+Wire Wire Line
+	2375 1825 2375 1775
+Wire Wire Line
+	3225 1925 3275 1925
+Wire Wire Line
+	3275 1925 3275 1825
+Wire Wire Line
+	3275 1625 3225 1625
+Wire Wire Line
+	3225 1725 3275 1725
+Connection ~ 3275 1725
+Wire Wire Line
+	3275 1725 3275 1625
+Wire Wire Line
+	3225 1825 3275 1825
+Connection ~ 3275 1825
+Wire Wire Line
+	3275 1825 3275 1775
+$Comp
+L Transistor_Array:ULN2003A U6
+U 1 1 5D375EED
+P 2825 3325
+F 0 "U6" H 2825 3950 50  0000 C CNN
+F 1 "ULN2003A" H 2825 3875 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2875 2775 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 2925 3125 50  0001 C CNN
+	1    2825 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5D375EF7
+P 2825 3925
+F 0 "#PWR010" H 2825 3675 50  0001 C CNN
+F 1 "GND" H 2825 3775 50  0000 C CNN
+F 2 "" H 2825 3925 50  0001 C CNN
+F 3 "" H 2825 3925 50  0001 C CNN
+	1    2825 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR014
+U 1 1 5D375F01
+P 3275 2850
+F 0 "#PWR014" H 3275 2700 50  0001 C CNN
+F 1 "+12V" H 3275 2990 50  0000 C CNN
+F 2 "" H 3275 2850 50  0001 C CNN
+F 3 "" H 3275 2850 50  0001 C CNN
+	1    3275 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 2850 3275 2925
+Wire Wire Line
+	3275 2925 3225 2925
+Wire Wire Line
+	2425 3425 2375 3425
+Wire Wire Line
+	2375 3425 2375 3375
+Wire Wire Line
+	2425 3225 2375 3225
+Wire Wire Line
+	2425 3325 2375 3325
+Connection ~ 2375 3325
+Wire Wire Line
+	2375 3325 2375 3225
+Wire Wire Line
+	3225 3425 3275 3425
+Wire Wire Line
+	3275 3425 3275 3375
+Wire Wire Line
+	3225 3225 3275 3225
+Wire Wire Line
+	3225 3325 3275 3325
+Connection ~ 3275 3325
+Wire Wire Line
+	3275 3325 3275 3225
+Wire Wire Line
+	2425 2025 2375 2025
+Wire Wire Line
+	2375 2025 2375 2125
+Wire Wire Line
+	2375 2225 2425 2225
+Wire Wire Line
+	2425 2125 2375 2125
+Connection ~ 2375 2125
+Wire Wire Line
+	2375 2125 2375 2225
+Wire Wire Line
+	3225 2025 3275 2025
+Wire Wire Line
+	3275 2025 3275 2125
+Wire Wire Line
+	3275 2225 3225 2225
+Wire Wire Line
+	3225 2125 3275 2125
+Connection ~ 3275 2125
+Wire Wire Line
+	3275 2125 3275 2225
+Wire Wire Line
+	2375 3425 2375 3525
+Wire Wire Line
+	2375 3525 2425 3525
+Connection ~ 2375 3425
+Wire Wire Line
+	3225 3525 3275 3525
+Wire Wire Line
+	3275 3525 3275 3425
+Connection ~ 3275 3425
+Wire Wire Line
+	2425 3625 2375 3625
+Wire Wire Line
+	2375 3625 2375 3675
+Wire Wire Line
+	2375 3725 2425 3725
+Wire Wire Line
+	3225 3625 3275 3625
+Wire Wire Line
+	3275 3625 3275 3675
+Wire Wire Line
+	3275 3725 3225 3725
+$Comp
+L Transistor_Array:ULN2003A U7
+U 1 1 5D375F31
+P 2825 4800
+F 0 "U7" H 2825 5425 50  0000 C CNN
+F 1 "ULN2003A" H 2825 5350 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2875 4250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 2925 4600 50  0001 C CNN
+	1    2825 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5D375F3B
+P 2825 5400
+F 0 "#PWR011" H 2825 5150 50  0001 C CNN
+F 1 "GND" H 2825 5250 50  0000 C CNN
+F 2 "" H 2825 5400 50  0001 C CNN
+F 3 "" H 2825 5400 50  0001 C CNN
+	1    2825 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR015
+U 1 1 5D375F45
+P 3275 4325
+F 0 "#PWR015" H 3275 4175 50  0001 C CNN
+F 1 "+12V" H 3275 4465 50  0000 C CNN
+F 2 "" H 3275 4325 50  0001 C CNN
+F 3 "" H 3275 4325 50  0001 C CNN
+	1    3275 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 4325 3275 4400
+Wire Wire Line
+	3275 4400 3225 4400
+Wire Wire Line
+	2425 4900 2375 4900
+Wire Wire Line
+	2375 4900 2375 4800
+Wire Wire Line
+	2375 4600 2425 4600
+Wire Wire Line
+	2425 4700 2375 4700
+Wire Wire Line
+	2425 4800 2375 4800
+Wire Wire Line
+	3225 4900 3275 4900
+Wire Wire Line
+	3275 4900 3275 4800
+Wire Wire Line
+	3275 4600 3225 4600
+Wire Wire Line
+	3225 4700 3275 4700
+Wire Wire Line
+	3225 4800 3275 4800
+Wire Wire Line
+	2375 4900 2375 4950
+Wire Wire Line
+	2375 5000 2425 5000
+Connection ~ 2375 4900
+Wire Wire Line
+	3225 5000 3275 5000
+Wire Wire Line
+	3275 5000 3275 4950
+Connection ~ 3275 4900
+Wire Wire Line
+	2425 5100 2375 5100
+Wire Wire Line
+	3225 5100 3275 5100
+Wire Wire Line
+	3275 4600 3275 4650
+Wire Wire Line
+	2375 5100 2375 5000
+Connection ~ 2375 5000
+Wire Wire Line
+	3275 5100 3275 5000
+Connection ~ 3275 5000
+$Comp
+L Transistor_Array:ULN2003A U8
+U 1 1 5D375F68
+P 2825 6275
+F 0 "U8" H 2825 6900 50  0000 C CNN
+F 1 "ULN2003A" H 2825 6825 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2875 5725 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 2925 6075 50  0001 C CNN
+	1    2825 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5D375F72
+P 2825 6875
+F 0 "#PWR012" H 2825 6625 50  0001 C CNN
+F 1 "GND" H 2825 6725 50  0000 C CNN
+F 2 "" H 2825 6875 50  0001 C CNN
+F 3 "" H 2825 6875 50  0001 C CNN
+	1    2825 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR016
+U 1 1 5D375F7C
+P 3275 5800
+F 0 "#PWR016" H 3275 5650 50  0001 C CNN
+F 1 "+12V" H 3275 5940 50  0000 C CNN
+F 2 "" H 3275 5800 50  0001 C CNN
+F 3 "" H 3275 5800 50  0001 C CNN
+	1    3275 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 5800 3275 5875
+Wire Wire Line
+	3275 5875 3225 5875
+Wire Wire Line
+	2425 6375 2375 6375
+Wire Wire Line
+	2375 6075 2425 6075
+Wire Wire Line
+	2425 6175 2375 6175
+Wire Wire Line
+	2425 6275 2375 6275
+Wire Wire Line
+	3225 6375 3275 6375
+Wire Wire Line
+	3275 6075 3225 6075
+Wire Wire Line
+	3225 6175 3275 6175
+Wire Wire Line
+	3225 6275 3275 6275
+Wire Wire Line
+	3275 6275 3275 6175
+Wire Wire Line
+	2375 6375 2375 6475
+Wire Wire Line
+	2375 6475 2425 6475
+Wire Wire Line
+	3225 6475 3275 6475
+Wire Wire Line
+	3275 6475 3275 6375
+Wire Wire Line
+	2425 6575 2375 6575
+Wire Wire Line
+	2375 6575 2375 6675
+Wire Wire Line
+	2375 6675 2425 6675
+Wire Wire Line
+	3225 6575 3275 6575
+Wire Wire Line
+	3275 6575 3275 6675
+Wire Wire Line
+	3275 6675 3225 6675
+Wire Wire Line
+	2375 6075 2375 6175
+Connection ~ 2375 6175
+Wire Wire Line
+	2375 6175 2375 6275
+Wire Wire Line
+	3275 6075 3275 6175
+Connection ~ 3275 6175
+Wire Wire Line
+	2375 6575 2375 6525
+Connection ~ 2375 6575
+Connection ~ 2375 6475
+Wire Wire Line
+	3275 6575 3275 6525
+Connection ~ 3275 6575
+Connection ~ 3275 6475
+Text GLabel 2325 1775 0    50   Input ~ 0
+S8
+Text GLabel 2325 2125 0    50   Input ~ 0
+S9
+Text GLabel 2325 3375 0    50   Input ~ 0
+S10
+Text GLabel 2325 3675 0    50   Input ~ 0
+S11
+Text GLabel 2325 4950 0    50   Input ~ 0
+S12
+Text GLabel 2325 5200 0    50   Input ~ 0
+S13
+Text GLabel 2325 6525 0    50   Input ~ 0
+S14
+Wire Wire Line
+	2325 1775 2375 1775
+Connection ~ 2375 1775
+Wire Wire Line
+	2375 1775 2375 1725
+Wire Wire Line
+	2325 2125 2375 2125
+Wire Wire Line
+	2325 3375 2375 3375
+Connection ~ 2375 3375
+Wire Wire Line
+	2375 3375 2375 3325
+Wire Wire Line
+	2325 3675 2375 3675
+Connection ~ 2375 3675
+Wire Wire Line
+	2375 3675 2375 3725
+Wire Wire Line
+	2325 4950 2375 4950
+Connection ~ 2375 4950
+Wire Wire Line
+	2375 4950 2375 5000
+Wire Wire Line
+	2325 5200 2375 5200
+Wire Wire Line
+	2325 6525 2375 6525
+Connection ~ 2375 6525
+Wire Wire Line
+	2375 6525 2375 6475
+Text GLabel 3325 1775 2    50   Output ~ 0
+O8
+Text GLabel 3325 2125 2    50   Output ~ 0
+O9
+Text GLabel 3325 3375 2    50   Output ~ 0
+O10
+Text GLabel 3325 3675 2    50   Output ~ 0
+O11
+Text GLabel 3325 4950 2    50   Output ~ 0
+O12
+Text GLabel 3325 5200 2    50   Output ~ 0
+O13
+Text GLabel 3325 6525 2    50   Output ~ 0
+O14
+Wire Wire Line
+	3325 6525 3275 6525
+Connection ~ 3275 6525
+Wire Wire Line
+	3275 6525 3275 6475
+Wire Wire Line
+	3225 5200 3275 5200
+Wire Wire Line
+	3325 4950 3275 4950
+Connection ~ 3275 4950
+Wire Wire Line
+	3275 4950 3275 4900
+Connection ~ 3275 4650
+Wire Wire Line
+	3275 4650 3275 4700
+Wire Wire Line
+	3275 3675 3325 3675
+Connection ~ 3275 3675
+Wire Wire Line
+	3275 3675 3275 3725
+Wire Wire Line
+	3325 3375 3275 3375
+Connection ~ 3275 3375
+Wire Wire Line
+	3275 3375 3275 3325
+Wire Wire Line
+	3325 2125 3275 2125
+Wire Wire Line
+	3325 1775 3275 1775
+Connection ~ 3275 1775
+Wire Wire Line
+	3275 1775 3275 1725
+Wire Wire Line
+	2375 2225 2375 3125
+Connection ~ 2375 2225
+Wire Wire Line
+	2375 3125 2425 3125
+Wire Wire Line
+	3400 3125 3400 2275
+Wire Wire Line
+	3400 2275 3275 2275
+Wire Wire Line
+	3275 2275 3275 2225
+Wire Wire Line
+	3225 3125 3400 3125
+Connection ~ 3275 2225
+Wire Wire Line
+	2375 4600 2375 3725
+Connection ~ 2375 4600
+Connection ~ 2375 3725
+Wire Wire Line
+	2375 4600 2375 4700
+Wire Wire Line
+	3400 4650 3400 3800
+Wire Wire Line
+	3400 3800 3275 3800
+Wire Wire Line
+	3275 3800 3275 3725
+Wire Wire Line
+	3275 4650 3400 4650
+Connection ~ 3275 3725
+Wire Wire Line
+	2375 6075 2375 5200
+Connection ~ 2375 6075
+Connection ~ 2375 5200
+Wire Wire Line
+	2375 5200 2425 5200
+Wire Wire Line
+	3375 6175 3375 5375
+Wire Wire Line
+	3375 5375 3275 5375
+Wire Wire Line
+	3275 5375 3275 5200
+Wire Wire Line
+	3275 6175 3375 6175
+Connection ~ 3275 5200
+Wire Wire Line
+	3275 5200 3325 5200
+$Comp
+L Transistor_Array:ULN2003A U9
+U 1 1 5D3D728D
+P 4325 1825
+F 0 "U9" H 4325 2450 50  0000 C CNN
+F 1 "ULN2003A" H 4325 2375 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 4375 1275 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4425 1625 50  0001 C CNN
+	1    4325 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5D3D7297
+P 4325 2425
+F 0 "#PWR017" H 4325 2175 50  0001 C CNN
+F 1 "GND" H 4325 2275 50  0000 C CNN
+F 2 "" H 4325 2425 50  0001 C CNN
+F 3 "" H 4325 2425 50  0001 C CNN
+	1    4325 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR021
+U 1 1 5D3D72A1
+P 4775 1350
+F 0 "#PWR021" H 4775 1200 50  0001 C CNN
+F 1 "+12V" H 4775 1490 50  0000 C CNN
+F 2 "" H 4775 1350 50  0001 C CNN
+F 3 "" H 4775 1350 50  0001 C CNN
+	1    4775 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 1350 4775 1425
+Wire Wire Line
+	4775 1425 4725 1425
+Wire Wire Line
+	3925 1925 3875 1925
+Wire Wire Line
+	3875 1925 3875 1825
+Wire Wire Line
+	3875 1625 3925 1625
+Wire Wire Line
+	3925 1725 3875 1725
+Connection ~ 3875 1725
+Wire Wire Line
+	3875 1725 3875 1625
+Wire Wire Line
+	3925 1825 3875 1825
+Connection ~ 3875 1825
+Wire Wire Line
+	3875 1825 3875 1775
+Wire Wire Line
+	4725 1925 4775 1925
+Wire Wire Line
+	4775 1925 4775 1825
+Wire Wire Line
+	4775 1625 4725 1625
+Wire Wire Line
+	4725 1725 4775 1725
+Connection ~ 4775 1725
+Wire Wire Line
+	4775 1725 4775 1625
+Wire Wire Line
+	4725 1825 4775 1825
+Connection ~ 4775 1825
+Wire Wire Line
+	4775 1825 4775 1775
+$Comp
+L Transistor_Array:ULN2003A U10
+U 1 1 5D3D72BF
+P 4325 3325
+F 0 "U10" H 4325 3950 50  0000 C CNN
+F 1 "ULN2003A" H 4325 3875 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 4375 2775 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4425 3125 50  0001 C CNN
+	1    4325 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5D3D72C9
+P 4325 3925
+F 0 "#PWR018" H 4325 3675 50  0001 C CNN
+F 1 "GND" H 4325 3775 50  0000 C CNN
+F 2 "" H 4325 3925 50  0001 C CNN
+F 3 "" H 4325 3925 50  0001 C CNN
+	1    4325 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR022
+U 1 1 5D3D72D3
+P 4775 2850
+F 0 "#PWR022" H 4775 2700 50  0001 C CNN
+F 1 "+12V" H 4775 2990 50  0000 C CNN
+F 2 "" H 4775 2850 50  0001 C CNN
+F 3 "" H 4775 2850 50  0001 C CNN
+	1    4775 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 2850 4775 2925
+Wire Wire Line
+	4775 2925 4725 2925
+Wire Wire Line
+	3925 3425 3875 3425
+Wire Wire Line
+	3875 3425 3875 3375
+Wire Wire Line
+	3925 3225 3875 3225
+Wire Wire Line
+	3925 3325 3875 3325
+Connection ~ 3875 3325
+Wire Wire Line
+	3875 3325 3875 3225
+Wire Wire Line
+	4725 3425 4775 3425
+Wire Wire Line
+	4775 3425 4775 3375
+Wire Wire Line
+	4725 3225 4775 3225
+Wire Wire Line
+	4725 3325 4775 3325
+Connection ~ 4775 3325
+Wire Wire Line
+	4775 3325 4775 3225
+Wire Wire Line
+	3925 2025 3875 2025
+Wire Wire Line
+	3875 2025 3875 2125
+Wire Wire Line
+	3875 2225 3925 2225
+Wire Wire Line
+	3925 2125 3875 2125
+Connection ~ 3875 2125
+Wire Wire Line
+	3875 2125 3875 2225
+Wire Wire Line
+	4725 2025 4775 2025
+Wire Wire Line
+	4775 2025 4775 2125
+Wire Wire Line
+	4775 2225 4725 2225
+Wire Wire Line
+	4725 2125 4775 2125
+Connection ~ 4775 2125
+Wire Wire Line
+	4775 2125 4775 2225
+Wire Wire Line
+	3875 3425 3875 3525
+Wire Wire Line
+	3875 3525 3925 3525
+Connection ~ 3875 3425
+Wire Wire Line
+	4725 3525 4775 3525
+Wire Wire Line
+	4775 3525 4775 3425
+Connection ~ 4775 3425
+Wire Wire Line
+	3925 3625 3875 3625
+Wire Wire Line
+	3875 3625 3875 3675
+Wire Wire Line
+	3875 3725 3925 3725
+Wire Wire Line
+	4725 3625 4775 3625
+Wire Wire Line
+	4775 3625 4775 3675
+Wire Wire Line
+	4775 3725 4725 3725
+$Comp
+L Transistor_Array:ULN2003A U11
+U 1 1 5D3D7303
+P 4325 4800
+F 0 "U11" H 4325 5425 50  0000 C CNN
+F 1 "ULN2003A" H 4325 5350 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 4375 4250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4425 4600 50  0001 C CNN
+	1    4325 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5D3D730D
+P 4325 5400
+F 0 "#PWR019" H 4325 5150 50  0001 C CNN
+F 1 "GND" H 4325 5250 50  0000 C CNN
+F 2 "" H 4325 5400 50  0001 C CNN
+F 3 "" H 4325 5400 50  0001 C CNN
+	1    4325 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR023
+U 1 1 5D3D7317
+P 4775 4325
+F 0 "#PWR023" H 4775 4175 50  0001 C CNN
+F 1 "+12V" H 4775 4465 50  0000 C CNN
+F 2 "" H 4775 4325 50  0001 C CNN
+F 3 "" H 4775 4325 50  0001 C CNN
+	1    4775 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 4325 4775 4400
+Wire Wire Line
+	4775 4400 4725 4400
+Wire Wire Line
+	3925 4900 3875 4900
+Wire Wire Line
+	3875 4900 3875 4800
+Wire Wire Line
+	3875 4600 3925 4600
+Wire Wire Line
+	3925 4700 3875 4700
+Wire Wire Line
+	3925 4800 3875 4800
+Wire Wire Line
+	4725 4900 4775 4900
+Wire Wire Line
+	4775 4900 4775 4800
+Wire Wire Line
+	4775 4600 4725 4600
+Wire Wire Line
+	4725 4700 4775 4700
+Wire Wire Line
+	4725 4800 4775 4800
+Wire Wire Line
+	3875 4900 3875 4950
+Wire Wire Line
+	3875 5000 3925 5000
+Connection ~ 3875 4900
+Wire Wire Line
+	4725 5000 4775 5000
+Wire Wire Line
+	4775 5000 4775 4950
+Connection ~ 4775 4900
+Wire Wire Line
+	3925 5100 3875 5100
+Wire Wire Line
+	4725 5100 4775 5100
+Wire Wire Line
+	4775 4600 4775 4650
+Wire Wire Line
+	3875 5100 3875 5000
+Connection ~ 3875 5000
+Wire Wire Line
+	4775 5100 4775 5000
+Connection ~ 4775 5000
+$Comp
+L Transistor_Array:ULN2003A U12
+U 1 1 5D3D733A
+P 4325 6275
+F 0 "U12" H 4325 6900 50  0000 C CNN
+F 1 "ULN2003A" H 4325 6825 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 4375 5725 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4425 6075 50  0001 C CNN
+	1    4325 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5D3D7344
+P 4325 6875
+F 0 "#PWR020" H 4325 6625 50  0001 C CNN
+F 1 "GND" H 4325 6725 50  0000 C CNN
+F 2 "" H 4325 6875 50  0001 C CNN
+F 3 "" H 4325 6875 50  0001 C CNN
+	1    4325 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR024
+U 1 1 5D3D734E
+P 4775 5800
+F 0 "#PWR024" H 4775 5650 50  0001 C CNN
+F 1 "+12V" H 4775 5940 50  0000 C CNN
+F 2 "" H 4775 5800 50  0001 C CNN
+F 3 "" H 4775 5800 50  0001 C CNN
+	1    4775 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 5800 4775 5875
+Wire Wire Line
+	4775 5875 4725 5875
+Wire Wire Line
+	3925 6375 3875 6375
+Wire Wire Line
+	3875 6075 3925 6075
+Wire Wire Line
+	3925 6175 3875 6175
+Wire Wire Line
+	3925 6275 3875 6275
+Wire Wire Line
+	4725 6375 4775 6375
+Wire Wire Line
+	4775 6075 4725 6075
+Wire Wire Line
+	4725 6175 4775 6175
+Wire Wire Line
+	4725 6275 4775 6275
+Wire Wire Line
+	4775 6275 4775 6175
+Wire Wire Line
+	3875 6375 3875 6475
+Wire Wire Line
+	3875 6475 3925 6475
+Wire Wire Line
+	4725 6475 4775 6475
+Wire Wire Line
+	4775 6475 4775 6375
+Wire Wire Line
+	3925 6575 3875 6575
+Wire Wire Line
+	3875 6575 3875 6675
+Wire Wire Line
+	3875 6675 3925 6675
+Wire Wire Line
+	4725 6575 4775 6575
+Wire Wire Line
+	4775 6575 4775 6675
+Wire Wire Line
+	4775 6675 4725 6675
+Wire Wire Line
+	3875 6075 3875 6175
+Connection ~ 3875 6175
+Wire Wire Line
+	3875 6175 3875 6275
+Wire Wire Line
+	4775 6075 4775 6175
+Connection ~ 4775 6175
+Wire Wire Line
+	3875 6575 3875 6525
+Connection ~ 3875 6575
+Connection ~ 3875 6475
+Wire Wire Line
+	4775 6575 4775 6525
+Connection ~ 4775 6575
+Connection ~ 4775 6475
+Text GLabel 3825 1775 0    50   Input ~ 0
+S15
+Text GLabel 3825 2125 0    50   Input ~ 0
+S16
+Text GLabel 3825 3375 0    50   Input ~ 0
+S17
+Text GLabel 3825 3675 0    50   Input ~ 0
+S18
+Text GLabel 3825 4950 0    50   Input ~ 0
+S19
+Text GLabel 3825 5200 0    50   Input ~ 0
+S20
+Text GLabel 3825 6525 0    50   Input ~ 0
+S21
+Wire Wire Line
+	3825 1775 3875 1775
+Connection ~ 3875 1775
+Wire Wire Line
+	3875 1775 3875 1725
+Wire Wire Line
+	3825 2125 3875 2125
+Wire Wire Line
+	3825 3375 3875 3375
+Connection ~ 3875 3375
+Wire Wire Line
+	3875 3375 3875 3325
+Wire Wire Line
+	3825 3675 3875 3675
+Connection ~ 3875 3675
+Wire Wire Line
+	3875 3675 3875 3725
+Wire Wire Line
+	3825 4950 3875 4950
+Connection ~ 3875 4950
+Wire Wire Line
+	3875 4950 3875 5000
+Wire Wire Line
+	3825 5200 3875 5200
+Wire Wire Line
+	3825 6525 3875 6525
+Connection ~ 3875 6525
+Wire Wire Line
+	3875 6525 3875 6475
+Text GLabel 4825 1775 2    50   Output ~ 0
+O15
+Text GLabel 4825 2125 2    50   Output ~ 0
+O16
+Text GLabel 4825 3375 2    50   Output ~ 0
+O17
+Text GLabel 4825 3675 2    50   Output ~ 0
+O18
+Text GLabel 4825 4950 2    50   Output ~ 0
+O19
+Text GLabel 4825 5200 2    50   Output ~ 0
+O20
+Text GLabel 4825 6525 2    50   Output ~ 0
+O21
+Wire Wire Line
+	4825 6525 4775 6525
+Connection ~ 4775 6525
+Wire Wire Line
+	4775 6525 4775 6475
+Wire Wire Line
+	4725 5200 4775 5200
+Wire Wire Line
+	4825 4950 4775 4950
+Connection ~ 4775 4950
+Wire Wire Line
+	4775 4950 4775 4900
+Connection ~ 4775 4650
+Wire Wire Line
+	4775 4650 4775 4700
+Wire Wire Line
+	4775 3675 4825 3675
+Connection ~ 4775 3675
+Wire Wire Line
+	4775 3675 4775 3725
+Wire Wire Line
+	4825 3375 4775 3375
+Connection ~ 4775 3375
+Wire Wire Line
+	4775 3375 4775 3325
+Wire Wire Line
+	4825 2125 4775 2125
+Wire Wire Line
+	4825 1775 4775 1775
+Connection ~ 4775 1775
+Wire Wire Line
+	4775 1775 4775 1725
+Wire Wire Line
+	3875 2225 3875 3125
+Connection ~ 3875 2225
+Wire Wire Line
+	3875 3125 3925 3125
+Wire Wire Line
+	4900 3125 4900 2275
+Wire Wire Line
+	4900 2275 4775 2275
+Wire Wire Line
+	4775 2275 4775 2225
+Wire Wire Line
+	4725 3125 4900 3125
+Connection ~ 4775 2225
+Wire Wire Line
+	3875 4600 3875 3725
+Connection ~ 3875 4600
+Connection ~ 3875 3725
+Wire Wire Line
+	3875 4600 3875 4700
+Wire Wire Line
+	4900 4650 4900 3800
+Wire Wire Line
+	4900 3800 4775 3800
+Wire Wire Line
+	4775 3800 4775 3725
+Wire Wire Line
+	4775 4650 4900 4650
+Connection ~ 4775 3725
+Wire Wire Line
+	3875 6075 3875 5200
+Connection ~ 3875 6075
+Connection ~ 3875 5200
+Wire Wire Line
+	3875 5200 3925 5200
+Wire Wire Line
+	4875 6175 4875 5375
+Wire Wire Line
+	4875 5375 4775 5375
+Wire Wire Line
+	4775 5375 4775 5200
+Wire Wire Line
+	4775 6175 4875 6175
+Connection ~ 4775 5200
+Wire Wire Line
+	4775 5200 4825 5200
+$Comp
+L Transistor_Array:ULN2003A U13
+U 1 1 5D3D73C5
+P 5750 1825
+F 0 "U13" H 5750 2450 50  0000 C CNN
+F 1 "ULN2003A" H 5750 2375 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 1275 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 5850 1625 50  0001 C CNN
+	1    5750 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5D3D73CF
+P 5750 2425
+F 0 "#PWR025" H 5750 2175 50  0001 C CNN
+F 1 "GND" H 5750 2275 50  0000 C CNN
+F 2 "" H 5750 2425 50  0001 C CNN
+F 3 "" H 5750 2425 50  0001 C CNN
+	1    5750 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR029
+U 1 1 5D3D73D9
+P 6200 1350
+F 0 "#PWR029" H 6200 1200 50  0001 C CNN
+F 1 "+12V" H 6200 1490 50  0000 C CNN
+F 2 "" H 6200 1350 50  0001 C CNN
+F 3 "" H 6200 1350 50  0001 C CNN
+	1    6200 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1350 6200 1425
+Wire Wire Line
+	6200 1425 6150 1425
+Wire Wire Line
+	5350 1925 5300 1925
+Wire Wire Line
+	5300 1925 5300 1825
+Wire Wire Line
+	5300 1625 5350 1625
+Wire Wire Line
+	5350 1725 5300 1725
+Connection ~ 5300 1725
+Wire Wire Line
+	5300 1725 5300 1625
+Wire Wire Line
+	5350 1825 5300 1825
+Connection ~ 5300 1825
+Wire Wire Line
+	5300 1825 5300 1775
+Wire Wire Line
+	6150 1925 6200 1925
+Wire Wire Line
+	6200 1925 6200 1825
+Wire Wire Line
+	6200 1625 6150 1625
+Wire Wire Line
+	6150 1725 6200 1725
+Connection ~ 6200 1725
+Wire Wire Line
+	6200 1725 6200 1625
+Wire Wire Line
+	6150 1825 6200 1825
+Connection ~ 6200 1825
+Wire Wire Line
+	6200 1825 6200 1775
+$Comp
+L Transistor_Array:ULN2003A U14
+U 1 1 5D3D73F7
+P 5750 3325
+F 0 "U14" H 5750 3950 50  0000 C CNN
+F 1 "ULN2003A" H 5750 3875 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 2775 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 5850 3125 50  0001 C CNN
+	1    5750 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5D3D7401
+P 5750 3925
+F 0 "#PWR026" H 5750 3675 50  0001 C CNN
+F 1 "GND" H 5750 3775 50  0000 C CNN
+F 2 "" H 5750 3925 50  0001 C CNN
+F 3 "" H 5750 3925 50  0001 C CNN
+	1    5750 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR030
+U 1 1 5D3D740B
+P 6200 2850
+F 0 "#PWR030" H 6200 2700 50  0001 C CNN
+F 1 "+12V" H 6200 2990 50  0000 C CNN
+F 2 "" H 6200 2850 50  0001 C CNN
+F 3 "" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2850 6200 2925
+Wire Wire Line
+	6200 2925 6150 2925
+Wire Wire Line
+	5350 3425 5300 3425
+Wire Wire Line
+	5300 3425 5300 3375
+Wire Wire Line
+	5350 3225 5300 3225
+Wire Wire Line
+	5350 3325 5300 3325
+Connection ~ 5300 3325
+Wire Wire Line
+	5300 3325 5300 3225
+Wire Wire Line
+	6150 3425 6200 3425
+Wire Wire Line
+	6200 3425 6200 3375
+Wire Wire Line
+	6150 3225 6200 3225
+Wire Wire Line
+	6150 3325 6200 3325
+Connection ~ 6200 3325
+Wire Wire Line
+	6200 3325 6200 3225
+Wire Wire Line
+	5350 2025 5300 2025
+Wire Wire Line
+	5300 2025 5300 2125
+Wire Wire Line
+	5300 2225 5350 2225
+Wire Wire Line
+	5350 2125 5300 2125
+Connection ~ 5300 2125
+Wire Wire Line
+	5300 2125 5300 2225
+Wire Wire Line
+	6150 2025 6200 2025
+Wire Wire Line
+	6200 2025 6200 2125
+Wire Wire Line
+	6200 2225 6150 2225
+Wire Wire Line
+	6150 2125 6200 2125
+Connection ~ 6200 2125
+Wire Wire Line
+	6200 2125 6200 2225
+Wire Wire Line
+	5300 3425 5300 3525
+Wire Wire Line
+	5300 3525 5350 3525
+Connection ~ 5300 3425
+Wire Wire Line
+	6150 3525 6200 3525
+Wire Wire Line
+	6200 3525 6200 3425
+Connection ~ 6200 3425
+Wire Wire Line
+	5350 3625 5300 3625
+Wire Wire Line
+	5300 3625 5300 3675
+Wire Wire Line
+	5300 3725 5350 3725
+Wire Wire Line
+	6150 3625 6200 3625
+Wire Wire Line
+	6200 3625 6200 3675
+Wire Wire Line
+	6200 3725 6150 3725
+$Comp
+L Transistor_Array:ULN2003A U15
+U 1 1 5D3D743B
+P 5750 4800
+F 0 "U15" H 5750 5425 50  0000 C CNN
+F 1 "ULN2003A" H 5750 5350 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 4250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 5850 4600 50  0001 C CNN
+	1    5750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5D3D7445
+P 5750 5400
+F 0 "#PWR027" H 5750 5150 50  0001 C CNN
+F 1 "GND" H 5750 5250 50  0000 C CNN
+F 2 "" H 5750 5400 50  0001 C CNN
+F 3 "" H 5750 5400 50  0001 C CNN
+	1    5750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR031
+U 1 1 5D3D744F
+P 6200 4325
+F 0 "#PWR031" H 6200 4175 50  0001 C CNN
+F 1 "+12V" H 6200 4465 50  0000 C CNN
+F 2 "" H 6200 4325 50  0001 C CNN
+F 3 "" H 6200 4325 50  0001 C CNN
+	1    6200 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4325 6200 4400
+Wire Wire Line
+	6200 4400 6150 4400
+Wire Wire Line
+	5350 4900 5300 4900
+Wire Wire Line
+	5300 4900 5300 4800
+Wire Wire Line
+	5300 4600 5350 4600
+Wire Wire Line
+	5350 4700 5300 4700
+Wire Wire Line
+	5350 4800 5300 4800
+Wire Wire Line
+	6150 4900 6200 4900
+Wire Wire Line
+	6200 4900 6200 4800
+Wire Wire Line
+	6200 4600 6150 4600
+Wire Wire Line
+	6150 4700 6200 4700
+Wire Wire Line
+	6150 4800 6200 4800
+Wire Wire Line
+	5300 4900 5300 4950
+Wire Wire Line
+	5300 5000 5350 5000
+Connection ~ 5300 4900
+Wire Wire Line
+	6150 5000 6200 5000
+Wire Wire Line
+	6200 5000 6200 4950
+Connection ~ 6200 4900
+Wire Wire Line
+	5350 5100 5300 5100
+Wire Wire Line
+	6150 5100 6200 5100
+Wire Wire Line
+	6200 4600 6200 4650
+Wire Wire Line
+	5300 5100 5300 5000
+Connection ~ 5300 5000
+Wire Wire Line
+	6200 5100 6200 5000
+Connection ~ 6200 5000
+$Comp
+L Transistor_Array:ULN2003A U16
+U 1 1 5D3D7472
+P 5750 6275
+F 0 "U16" H 5750 6900 50  0000 C CNN
+F 1 "ULN2003A" H 5750 6825 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 5725 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 5850 6075 50  0001 C CNN
+	1    5750 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 5D3D747C
+P 5750 6875
+F 0 "#PWR028" H 5750 6625 50  0001 C CNN
+F 1 "GND" H 5750 6725 50  0000 C CNN
+F 2 "" H 5750 6875 50  0001 C CNN
+F 3 "" H 5750 6875 50  0001 C CNN
+	1    5750 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR032
+U 1 1 5D3D7486
+P 6200 5800
+F 0 "#PWR032" H 6200 5650 50  0001 C CNN
+F 1 "+12V" H 6200 5940 50  0000 C CNN
+F 2 "" H 6200 5800 50  0001 C CNN
+F 3 "" H 6200 5800 50  0001 C CNN
+	1    6200 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5800 6200 5875
+Wire Wire Line
+	6200 5875 6150 5875
+Wire Wire Line
+	5350 6375 5300 6375
+Wire Wire Line
+	5300 6075 5350 6075
+Wire Wire Line
+	5350 6175 5300 6175
+Wire Wire Line
+	5350 6275 5300 6275
+Wire Wire Line
+	6150 6375 6200 6375
+Wire Wire Line
+	6200 6075 6150 6075
+Wire Wire Line
+	6150 6175 6200 6175
+Wire Wire Line
+	6150 6275 6200 6275
+Wire Wire Line
+	6200 6275 6200 6175
+Wire Wire Line
+	5300 6375 5300 6475
+Wire Wire Line
+	5300 6475 5350 6475
+Wire Wire Line
+	6150 6475 6200 6475
+Wire Wire Line
+	6200 6475 6200 6375
+Wire Wire Line
+	5350 6575 5300 6575
+Wire Wire Line
+	5300 6575 5300 6675
+Wire Wire Line
+	5300 6675 5350 6675
+Wire Wire Line
+	6150 6575 6200 6575
+Wire Wire Line
+	6200 6575 6200 6675
+Wire Wire Line
+	6200 6675 6150 6675
+Wire Wire Line
+	5300 6075 5300 6175
+Connection ~ 5300 6175
+Wire Wire Line
+	5300 6175 5300 6275
+Wire Wire Line
+	6200 6075 6200 6175
+Connection ~ 6200 6175
+Wire Wire Line
+	5300 6575 5300 6525
+Connection ~ 5300 6575
+Connection ~ 5300 6475
+Wire Wire Line
+	6200 6575 6200 6525
+Connection ~ 6200 6575
+Connection ~ 6200 6475
+Text GLabel 5250 1775 0    50   Input ~ 0
+S22
+Text GLabel 5250 2125 0    50   Input ~ 0
+S23
+Text GLabel 5250 3375 0    50   Input ~ 0
+S24
+Text GLabel 5250 3675 0    50   Input ~ 0
+S25
+Text GLabel 5250 4950 0    50   Input ~ 0
+S26
+Text GLabel 5250 5200 0    50   Input ~ 0
+S27
+Text GLabel 5250 6525 0    50   Input ~ 0
+S28
+Wire Wire Line
+	5250 1775 5300 1775
+Connection ~ 5300 1775
+Wire Wire Line
+	5300 1775 5300 1725
+Wire Wire Line
+	5250 2125 5300 2125
+Wire Wire Line
+	5250 3375 5300 3375
+Connection ~ 5300 3375
+Wire Wire Line
+	5300 3375 5300 3325
+Wire Wire Line
+	5250 3675 5300 3675
+Connection ~ 5300 3675
+Wire Wire Line
+	5300 3675 5300 3725
+Wire Wire Line
+	5250 4950 5300 4950
+Connection ~ 5300 4950
+Wire Wire Line
+	5300 4950 5300 5000
+Wire Wire Line
+	5250 5200 5300 5200
+Wire Wire Line
+	5250 6525 5300 6525
+Connection ~ 5300 6525
+Wire Wire Line
+	5300 6525 5300 6475
+Text GLabel 6250 1775 2    50   Output ~ 0
+O22
+Text GLabel 6250 2125 2    50   Output ~ 0
+O23
+Text GLabel 6250 3375 2    50   Output ~ 0
+O24
+Text GLabel 6250 3675 2    50   Output ~ 0
+O25
+Text GLabel 6250 4950 2    50   Output ~ 0
+O26
+Text GLabel 6250 5200 2    50   Output ~ 0
+O27
+Text GLabel 6250 6525 2    50   Output ~ 0
+O28
+Wire Wire Line
+	6250 6525 6200 6525
+Connection ~ 6200 6525
+Wire Wire Line
+	6200 6525 6200 6475
+Wire Wire Line
+	6150 5200 6200 5200
+Wire Wire Line
+	6250 4950 6200 4950
+Connection ~ 6200 4950
+Wire Wire Line
+	6200 4950 6200 4900
+Connection ~ 6200 4650
+Wire Wire Line
+	6200 4650 6200 4700
+Wire Wire Line
+	6200 3675 6250 3675
+Connection ~ 6200 3675
+Wire Wire Line
+	6200 3675 6200 3725
+Wire Wire Line
+	6250 3375 6200 3375
+Connection ~ 6200 3375
+Wire Wire Line
+	6200 3375 6200 3325
+Wire Wire Line
+	6250 2125 6200 2125
+Wire Wire Line
+	6250 1775 6200 1775
+Connection ~ 6200 1775
+Wire Wire Line
+	6200 1775 6200 1725
+Wire Wire Line
+	5300 2225 5300 3125
+Connection ~ 5300 2225
+Wire Wire Line
+	5300 3125 5350 3125
+Wire Wire Line
+	6325 3125 6325 2275
+Wire Wire Line
+	6325 2275 6200 2275
+Wire Wire Line
+	6200 2275 6200 2225
+Wire Wire Line
+	6150 3125 6325 3125
+Connection ~ 6200 2225
+Wire Wire Line
+	5300 4600 5300 3725
+Connection ~ 5300 4600
+Connection ~ 5300 3725
+Wire Wire Line
+	5300 4600 5300 4700
+Wire Wire Line
+	6325 4650 6325 3800
+Wire Wire Line
+	6325 3800 6200 3800
+Wire Wire Line
+	6200 3800 6200 3725
+Wire Wire Line
+	6200 4650 6325 4650
+Connection ~ 6200 3725
+Wire Wire Line
+	5300 6075 5300 5200
+Connection ~ 5300 6075
+Connection ~ 5300 5200
+Wire Wire Line
+	5300 5200 5350 5200
+Wire Wire Line
+	6300 6175 6300 5375
+Wire Wire Line
+	6300 5375 6200 5375
+Wire Wire Line
+	6200 5375 6200 5200
+Wire Wire Line
+	6200 6175 6300 6175
+Connection ~ 6200 5200
+Wire Wire Line
+	6200 5200 6250 5200
+$Comp
+L Transistor_Array:ULN2003A U17
+U 1 1 5D474AA3
+P 7225 1825
+F 0 "U17" H 7225 2450 50  0000 C CNN
+F 1 "ULN2003A" H 7225 2375 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 7275 1275 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7325 1625 50  0001 C CNN
+	1    7225 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5D474AAD
+P 7225 2425
+F 0 "#PWR033" H 7225 2175 50  0001 C CNN
+F 1 "GND" H 7225 2275 50  0000 C CNN
+F 2 "" H 7225 2425 50  0001 C CNN
+F 3 "" H 7225 2425 50  0001 C CNN
+	1    7225 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR036
+U 1 1 5D474AB7
+P 7675 1350
+F 0 "#PWR036" H 7675 1200 50  0001 C CNN
+F 1 "+12V" H 7675 1490 50  0000 C CNN
+F 2 "" H 7675 1350 50  0001 C CNN
+F 3 "" H 7675 1350 50  0001 C CNN
+	1    7675 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7675 1350 7675 1425
+Wire Wire Line
+	7675 1425 7625 1425
+Wire Wire Line
+	6825 1925 6775 1925
+Wire Wire Line
+	6775 1925 6775 1825
+Wire Wire Line
+	6775 1625 6825 1625
+Wire Wire Line
+	6825 1725 6775 1725
+Connection ~ 6775 1725
+Wire Wire Line
+	6775 1725 6775 1625
+Wire Wire Line
+	6825 1825 6775 1825
+Connection ~ 6775 1825
+Wire Wire Line
+	6775 1825 6775 1775
+Wire Wire Line
+	7625 1925 7675 1925
+Wire Wire Line
+	7675 1925 7675 1825
+Wire Wire Line
+	7675 1625 7625 1625
+Wire Wire Line
+	7625 1725 7675 1725
+Connection ~ 7675 1725
+Wire Wire Line
+	7675 1725 7675 1625
+Wire Wire Line
+	7625 1825 7675 1825
+Connection ~ 7675 1825
+Wire Wire Line
+	7675 1825 7675 1775
+$Comp
+L Transistor_Array:ULN2003A U18
+U 1 1 5D474AD5
+P 7225 3325
+F 0 "U18" H 7225 3950 50  0000 C CNN
+F 1 "ULN2003A" H 7225 3875 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 7275 2775 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7325 3125 50  0001 C CNN
+	1    7225 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 5D474ADF
+P 7225 3925
+F 0 "#PWR034" H 7225 3675 50  0001 C CNN
+F 1 "GND" H 7225 3775 50  0000 C CNN
+F 2 "" H 7225 3925 50  0001 C CNN
+F 3 "" H 7225 3925 50  0001 C CNN
+	1    7225 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR037
+U 1 1 5D474AE9
+P 7675 2850
+F 0 "#PWR037" H 7675 2700 50  0001 C CNN
+F 1 "+12V" H 7675 2990 50  0000 C CNN
+F 2 "" H 7675 2850 50  0001 C CNN
+F 3 "" H 7675 2850 50  0001 C CNN
+	1    7675 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7675 2850 7675 2925
+Wire Wire Line
+	7675 2925 7625 2925
+Wire Wire Line
+	6825 3425 6775 3425
+Wire Wire Line
+	6775 3425 6775 3375
+Wire Wire Line
+	6825 3225 6775 3225
+Wire Wire Line
+	6825 3325 6775 3325
+Connection ~ 6775 3325
+Wire Wire Line
+	6775 3325 6775 3225
+Wire Wire Line
+	7625 3425 7675 3425
+Wire Wire Line
+	7675 3425 7675 3375
+Wire Wire Line
+	7625 3225 7675 3225
+Wire Wire Line
+	7625 3325 7675 3325
+Connection ~ 7675 3325
+Wire Wire Line
+	7675 3325 7675 3225
+Wire Wire Line
+	6825 2025 6775 2025
+Wire Wire Line
+	6775 2025 6775 2125
+Wire Wire Line
+	6775 2225 6825 2225
+Wire Wire Line
+	6825 2125 6775 2125
+Connection ~ 6775 2125
+Wire Wire Line
+	6775 2125 6775 2225
+Wire Wire Line
+	7625 2025 7675 2025
+Wire Wire Line
+	7675 2025 7675 2125
+Wire Wire Line
+	7675 2225 7625 2225
+Wire Wire Line
+	7625 2125 7675 2125
+Connection ~ 7675 2125
+Wire Wire Line
+	7675 2125 7675 2225
+Wire Wire Line
+	6775 3425 6775 3525
+Wire Wire Line
+	6775 3525 6825 3525
+Connection ~ 6775 3425
+Wire Wire Line
+	7625 3525 7675 3525
+Wire Wire Line
+	7675 3525 7675 3425
+Connection ~ 7675 3425
+Wire Wire Line
+	6825 3625 6775 3625
+Wire Wire Line
+	6775 3625 6775 3675
+Wire Wire Line
+	6775 3725 6825 3725
+Wire Wire Line
+	7625 3625 7675 3625
+Wire Wire Line
+	7675 3625 7675 3675
+Wire Wire Line
+	7675 3725 7625 3725
+$Comp
+L Transistor_Array:ULN2003A U19
+U 1 1 5D474B19
+P 7225 4800
+F 0 "U19" H 7225 5425 50  0000 C CNN
+F 1 "ULN2003A" H 7225 5350 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 7275 4250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7325 4600 50  0001 C CNN
+	1    7225 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 5D474B23
+P 7225 5400
+F 0 "#PWR035" H 7225 5150 50  0001 C CNN
+F 1 "GND" H 7225 5250 50  0000 C CNN
+F 2 "" H 7225 5400 50  0001 C CNN
+F 3 "" H 7225 5400 50  0001 C CNN
+	1    7225 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR038
+U 1 1 5D474B2D
+P 7675 4325
+F 0 "#PWR038" H 7675 4175 50  0001 C CNN
+F 1 "+12V" H 7675 4465 50  0000 C CNN
+F 2 "" H 7675 4325 50  0001 C CNN
+F 3 "" H 7675 4325 50  0001 C CNN
+	1    7675 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7675 4325 7675 4400
+Wire Wire Line
+	7675 4400 7625 4400
+Wire Wire Line
+	6775 4600 6825 4600
+Wire Wire Line
+	6825 4700 6775 4700
+Wire Wire Line
+	7675 4600 7625 4600
+Wire Wire Line
+	7625 4700 7675 4700
+Wire Wire Line
+	7675 4600 7675 4650
+Text GLabel 6725 1775 0    50   Input ~ 0
+S29
+Text GLabel 6725 2125 0    50   Input ~ 0
+S30
+Text GLabel 6725 3375 0    50   Input ~ 0
+S31
+Text GLabel 6725 3675 0    50   Input ~ 0
+S32
+Wire Wire Line
+	6725 1775 6775 1775
+Connection ~ 6775 1775
+Wire Wire Line
+	6775 1775 6775 1725
+Wire Wire Line
+	6725 2125 6775 2125
+Wire Wire Line
+	6725 3375 6775 3375
+Connection ~ 6775 3375
+Wire Wire Line
+	6775 3375 6775 3325
+Wire Wire Line
+	6725 3675 6775 3675
+Connection ~ 6775 3675
+Wire Wire Line
+	6775 3675 6775 3725
+Text GLabel 7725 1775 2    50   Output ~ 0
+O29
+Text GLabel 7725 2125 2    50   Output ~ 0
+O30
+Text GLabel 7725 3375 2    50   Output ~ 0
+O31
+Text GLabel 7725 3675 2    50   Output ~ 0
+O32
+Connection ~ 7675 4650
+Wire Wire Line
+	7675 4650 7675 4700
+Wire Wire Line
+	7675 3675 7725 3675
+Connection ~ 7675 3675
+Wire Wire Line
+	7675 3675 7675 3725
+Wire Wire Line
+	7725 3375 7675 3375
+Connection ~ 7675 3375
+Wire Wire Line
+	7675 3375 7675 3325
+Wire Wire Line
+	7725 2125 7675 2125
+Wire Wire Line
+	7725 1775 7675 1775
+Connection ~ 7675 1775
+Wire Wire Line
+	7675 1775 7675 1725
+Wire Wire Line
+	6775 2225 6775 3125
+Connection ~ 6775 2225
+Wire Wire Line
+	6775 3125 6825 3125
+Wire Wire Line
+	7800 3125 7800 2275
+Wire Wire Line
+	7800 2275 7675 2275
+Wire Wire Line
+	7675 2275 7675 2225
+Wire Wire Line
+	7625 3125 7800 3125
+Connection ~ 7675 2225
+Wire Wire Line
+	6775 4600 6775 3725
+Connection ~ 6775 4600
+Connection ~ 6775 3725
+Wire Wire Line
+	6775 4600 6775 4700
+Wire Wire Line
+	7800 4650 7800 3800
+Wire Wire Line
+	7800 3800 7675 3800
+Wire Wire Line
+	7675 3800 7675 3725
+Wire Wire Line
+	7675 4650 7800 4650
+Connection ~ 7675 3725
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5D63F490
+P 8650 3475
+F 0 "J1" H 8650 3575 50  0000 C CNN
+F 1 "Sol" H 8650 3275 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 8650 3475 50  0001 C CNN
+F 3 "~" H 8650 3475 50  0001 C CNN
+	1    8650 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR039
+U 1 1 5D643292
+P 8450 3475
+F 0 "#PWR039" H 8450 3325 50  0001 C CNN
+F 1 "+12V" H 8450 3615 50  0000 C CNN
+F 2 "" H 8450 3475 50  0001 C CNN
+F 3 "" H 8450 3475 50  0001 C CNN
+	1    8450 3475
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 3575 0    50   Input ~ 0
+O1
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5D6449B9
+P 8650 3850
+F 0 "J2" H 8650 3950 50  0000 C CNN
+F 1 "Sol" H 8650 3650 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 8650 3850 50  0001 C CNN
+F 3 "~" H 8650 3850 50  0001 C CNN
+	1    8650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR040
+U 1 1 5D6449C3
+P 8450 3850
+F 0 "#PWR040" H 8450 3700 50  0001 C CNN
+F 1 "+12V" H 8450 3990 50  0000 C CNN
+F 2 "" H 8450 3850 50  0001 C CNN
+F 3 "" H 8450 3850 50  0001 C CNN
+	1    8450 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 3950 0    50   Input ~ 0
+O2
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5D6AEE9F
+P 8650 4250
+F 0 "J3" H 8650 4350 50  0000 C CNN
+F 1 "Sol" H 8650 4050 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 8650 4250 50  0001 C CNN
+F 3 "~" H 8650 4250 50  0001 C CNN
+	1    8650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR041
+U 1 1 5D6AEEA9
+P 8450 4250
+F 0 "#PWR041" H 8450 4100 50  0001 C CNN
+F 1 "+12V" H 8450 4390 50  0000 C CNN
+F 2 "" H 8450 4250 50  0001 C CNN
+F 3 "" H 8450 4250 50  0001 C CNN
+	1    8450 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 4350 0    50   Input ~ 0
+O3
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5D6AEEB4
+P 8650 4625
+F 0 "J4" H 8650 4725 50  0000 C CNN
+F 1 "Sol" H 8650 4425 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 8650 4625 50  0001 C CNN
+F 3 "~" H 8650 4625 50  0001 C CNN
+	1    8650 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR042
+U 1 1 5D6AEEBE
+P 8450 4625
+F 0 "#PWR042" H 8450 4475 50  0001 C CNN
+F 1 "+12V" H 8450 4765 50  0000 C CNN
+F 2 "" H 8450 4625 50  0001 C CNN
+F 3 "" H 8450 4625 50  0001 C CNN
+	1    8450 4625
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 4725 0    50   Input ~ 0
+O4
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5D786D27
+P 8650 5025
+F 0 "J5" H 8650 5125 50  0000 C CNN
+F 1 "Sol" H 8650 4825 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 8650 5025 50  0001 C CNN
+F 3 "~" H 8650 5025 50  0001 C CNN
+	1    8650 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR043
+U 1 1 5D786D31
+P 8450 5025
+F 0 "#PWR043" H 8450 4875 50  0001 C CNN
+F 1 "+12V" H 8450 5165 50  0000 C CNN
+F 2 "" H 8450 5025 50  0001 C CNN
+F 3 "" H 8450 5025 50  0001 C CNN
+	1    8450 5025
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 5125 0    50   Input ~ 0
+O5
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5D786D3C
+P 8650 5400
+F 0 "J6" H 8650 5500 50  0000 C CNN
+F 1 "Sol" H 8650 5200 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 8650 5400 50  0001 C CNN
+F 3 "~" H 8650 5400 50  0001 C CNN
+	1    8650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR044
+U 1 1 5D786D46
+P 8450 5400
+F 0 "#PWR044" H 8450 5250 50  0001 C CNN
+F 1 "+12V" H 8450 5540 50  0000 C CNN
+F 2 "" H 8450 5400 50  0001 C CNN
+F 3 "" H 8450 5400 50  0001 C CNN
+	1    8450 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 5500 0    50   Input ~ 0
+O6
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5D786D51
+P 8650 5800
+F 0 "J7" H 8650 5900 50  0000 C CNN
+F 1 "Sol" H 8650 5600 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 8650 5800 50  0001 C CNN
+F 3 "~" H 8650 5800 50  0001 C CNN
+	1    8650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR045
+U 1 1 5D786D5B
+P 8450 5800
+F 0 "#PWR045" H 8450 5650 50  0001 C CNN
+F 1 "+12V" H 8450 5940 50  0000 C CNN
+F 2 "" H 8450 5800 50  0001 C CNN
+F 3 "" H 8450 5800 50  0001 C CNN
+	1    8450 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 5900 0    50   Input ~ 0
+O7
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5D786D66
+P 8650 6175
+F 0 "J8" H 8650 6275 50  0000 C CNN
+F 1 "Sol" H 8650 5975 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 8650 6175 50  0001 C CNN
+F 3 "~" H 8650 6175 50  0001 C CNN
+	1    8650 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR046
+U 1 1 5D786D70
+P 8450 6175
+F 0 "#PWR046" H 8450 6025 50  0001 C CNN
+F 1 "+12V" H 8450 6315 50  0000 C CNN
+F 2 "" H 8450 6175 50  0001 C CNN
+F 3 "" H 8450 6175 50  0001 C CNN
+	1    8450 6175
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 6275 0    50   Input ~ 0
+O8
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5D863E8F
+P 9175 3475
+F 0 "J9" H 9175 3575 50  0000 C CNN
+F 1 "Sol" H 9175 3275 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9175 3475 50  0001 C CNN
+F 3 "~" H 9175 3475 50  0001 C CNN
+	1    9175 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR047
+U 1 1 5D863E99
+P 8975 3475
+F 0 "#PWR047" H 8975 3325 50  0001 C CNN
+F 1 "+12V" H 8975 3615 50  0000 C CNN
+F 2 "" H 8975 3475 50  0001 C CNN
+F 3 "" H 8975 3475 50  0001 C CNN
+	1    8975 3475
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 3575 0    50   Input ~ 0
+O9
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5D863EA4
+P 9175 3850
+F 0 "J10" H 9175 3950 50  0000 C CNN
+F 1 "Sol" H 9175 3650 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9175 3850 50  0001 C CNN
+F 3 "~" H 9175 3850 50  0001 C CNN
+	1    9175 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR048
+U 1 1 5D863EAE
+P 8975 3850
+F 0 "#PWR048" H 8975 3700 50  0001 C CNN
+F 1 "+12V" H 8975 3990 50  0000 C CNN
+F 2 "" H 8975 3850 50  0001 C CNN
+F 3 "" H 8975 3850 50  0001 C CNN
+	1    8975 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 3950 0    50   Input ~ 0
+O10
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5D863EB9
+P 9175 4250
+F 0 "J11" H 9175 4350 50  0000 C CNN
+F 1 "Sol" H 9175 4050 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9175 4250 50  0001 C CNN
+F 3 "~" H 9175 4250 50  0001 C CNN
+	1    9175 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR049
+U 1 1 5D863EC3
+P 8975 4250
+F 0 "#PWR049" H 8975 4100 50  0001 C CNN
+F 1 "+12V" H 8975 4390 50  0000 C CNN
+F 2 "" H 8975 4250 50  0001 C CNN
+F 3 "" H 8975 4250 50  0001 C CNN
+	1    8975 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 4350 0    50   Input ~ 0
+O11
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5D863ECE
+P 9175 4625
+F 0 "J12" H 9175 4725 50  0000 C CNN
+F 1 "Sol" H 9175 4425 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9175 4625 50  0001 C CNN
+F 3 "~" H 9175 4625 50  0001 C CNN
+	1    9175 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR050
+U 1 1 5D863ED8
+P 8975 4625
+F 0 "#PWR050" H 8975 4475 50  0001 C CNN
+F 1 "+12V" H 8975 4765 50  0000 C CNN
+F 2 "" H 8975 4625 50  0001 C CNN
+F 3 "" H 8975 4625 50  0001 C CNN
+	1    8975 4625
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 4725 0    50   Input ~ 0
+O12
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5D863EE3
+P 9175 5025
+F 0 "J13" H 9175 5125 50  0000 C CNN
+F 1 "Sol" H 9175 4825 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9175 5025 50  0001 C CNN
+F 3 "~" H 9175 5025 50  0001 C CNN
+	1    9175 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR051
+U 1 1 5D863EED
+P 8975 5025
+F 0 "#PWR051" H 8975 4875 50  0001 C CNN
+F 1 "+12V" H 8975 5165 50  0000 C CNN
+F 2 "" H 8975 5025 50  0001 C CNN
+F 3 "" H 8975 5025 50  0001 C CNN
+	1    8975 5025
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 5125 0    50   Input ~ 0
+O13
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5D863EF8
+P 9175 5400
+F 0 "J14" H 9175 5500 50  0000 C CNN
+F 1 "Sol" H 9175 5200 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9175 5400 50  0001 C CNN
+F 3 "~" H 9175 5400 50  0001 C CNN
+	1    9175 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR052
+U 1 1 5D863F02
+P 8975 5400
+F 0 "#PWR052" H 8975 5250 50  0001 C CNN
+F 1 "+12V" H 8975 5540 50  0000 C CNN
+F 2 "" H 8975 5400 50  0001 C CNN
+F 3 "" H 8975 5400 50  0001 C CNN
+	1    8975 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 5500 0    50   Input ~ 0
+O14
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5D863F0D
+P 9175 5800
+F 0 "J15" H 9175 5900 50  0000 C CNN
+F 1 "Sol" H 9175 5600 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9175 5800 50  0001 C CNN
+F 3 "~" H 9175 5800 50  0001 C CNN
+	1    9175 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR053
+U 1 1 5D863F17
+P 8975 5800
+F 0 "#PWR053" H 8975 5650 50  0001 C CNN
+F 1 "+12V" H 8975 5940 50  0000 C CNN
+F 2 "" H 8975 5800 50  0001 C CNN
+F 3 "" H 8975 5800 50  0001 C CNN
+	1    8975 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 5900 0    50   Input ~ 0
+O15
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5D863F22
+P 9175 6175
+F 0 "J16" H 9175 6275 50  0000 C CNN
+F 1 "Sol" H 9175 5975 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9175 6175 50  0001 C CNN
+F 3 "~" H 9175 6175 50  0001 C CNN
+	1    9175 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR054
+U 1 1 5D863F2C
+P 8975 6175
+F 0 "#PWR054" H 8975 6025 50  0001 C CNN
+F 1 "+12V" H 8975 6315 50  0000 C CNN
+F 2 "" H 8975 6175 50  0001 C CNN
+F 3 "" H 8975 6175 50  0001 C CNN
+	1    8975 6175
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 6275 0    50   Input ~ 0
+O16
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 5D9ABAB1
+P 9725 3475
+F 0 "J17" H 9725 3575 50  0000 C CNN
+F 1 "Sol" H 9725 3275 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9725 3475 50  0001 C CNN
+F 3 "~" H 9725 3475 50  0001 C CNN
+	1    9725 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR055
+U 1 1 5D9ABABB
+P 9525 3475
+F 0 "#PWR055" H 9525 3325 50  0001 C CNN
+F 1 "+12V" H 9525 3615 50  0000 C CNN
+F 2 "" H 9525 3475 50  0001 C CNN
+F 3 "" H 9525 3475 50  0001 C CNN
+	1    9525 3475
+	1    0    0    -1  
+$EndComp
+Text GLabel 9525 3575 0    50   Input ~ 0
+O17
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 5D9ABAC6
+P 9725 3850
+F 0 "J18" H 9725 3950 50  0000 C CNN
+F 1 "Sol" H 9725 3650 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9725 3850 50  0001 C CNN
+F 3 "~" H 9725 3850 50  0001 C CNN
+	1    9725 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR056
+U 1 1 5D9ABAD0
+P 9525 3850
+F 0 "#PWR056" H 9525 3700 50  0001 C CNN
+F 1 "+12V" H 9525 3990 50  0000 C CNN
+F 2 "" H 9525 3850 50  0001 C CNN
+F 3 "" H 9525 3850 50  0001 C CNN
+	1    9525 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9525 3950 0    50   Input ~ 0
+O18
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 5D9ABADB
+P 9725 4250
+F 0 "J19" H 9725 4350 50  0000 C CNN
+F 1 "Sol" H 9725 4050 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9725 4250 50  0001 C CNN
+F 3 "~" H 9725 4250 50  0001 C CNN
+	1    9725 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR057
+U 1 1 5D9ABAE5
+P 9525 4250
+F 0 "#PWR057" H 9525 4100 50  0001 C CNN
+F 1 "+12V" H 9525 4390 50  0000 C CNN
+F 2 "" H 9525 4250 50  0001 C CNN
+F 3 "" H 9525 4250 50  0001 C CNN
+	1    9525 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9525 4350 0    50   Input ~ 0
+O19
+$Comp
+L Connector_Generic:Conn_01x02 J20
+U 1 1 5D9ABAF0
+P 9725 4625
+F 0 "J20" H 9725 4725 50  0000 C CNN
+F 1 "Sol" H 9725 4425 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9725 4625 50  0001 C CNN
+F 3 "~" H 9725 4625 50  0001 C CNN
+	1    9725 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR058
+U 1 1 5D9ABAFA
+P 9525 4625
+F 0 "#PWR058" H 9525 4475 50  0001 C CNN
+F 1 "+12V" H 9525 4765 50  0000 C CNN
+F 2 "" H 9525 4625 50  0001 C CNN
+F 3 "" H 9525 4625 50  0001 C CNN
+	1    9525 4625
+	1    0    0    -1  
+$EndComp
+Text GLabel 9525 4725 0    50   Input ~ 0
+O20
+$Comp
+L Connector_Generic:Conn_01x02 J21
+U 1 1 5D9ABB05
+P 9725 5025
+F 0 "J21" H 9725 5125 50  0000 C CNN
+F 1 "Sol" H 9725 4825 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9725 5025 50  0001 C CNN
+F 3 "~" H 9725 5025 50  0001 C CNN
+	1    9725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR059
+U 1 1 5D9ABB0F
+P 9525 5025
+F 0 "#PWR059" H 9525 4875 50  0001 C CNN
+F 1 "+12V" H 9525 5165 50  0000 C CNN
+F 2 "" H 9525 5025 50  0001 C CNN
+F 3 "" H 9525 5025 50  0001 C CNN
+	1    9525 5025
+	1    0    0    -1  
+$EndComp
+Text GLabel 9525 5125 0    50   Input ~ 0
+O21
+$Comp
+L Connector_Generic:Conn_01x02 J22
+U 1 1 5D9ABB1A
+P 9725 5400
+F 0 "J22" H 9725 5500 50  0000 C CNN
+F 1 "Sol" H 9725 5200 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9725 5400 50  0001 C CNN
+F 3 "~" H 9725 5400 50  0001 C CNN
+	1    9725 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR060
+U 1 1 5D9ABB24
+P 9525 5400
+F 0 "#PWR060" H 9525 5250 50  0001 C CNN
+F 1 "+12V" H 9525 5540 50  0000 C CNN
+F 2 "" H 9525 5400 50  0001 C CNN
+F 3 "" H 9525 5400 50  0001 C CNN
+	1    9525 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 9525 5500 0    50   Input ~ 0
+O22
+$Comp
+L Connector_Generic:Conn_01x02 J23
+U 1 1 5D9ABB2F
+P 9725 5800
+F 0 "J23" H 9725 5900 50  0000 C CNN
+F 1 "Sol" H 9725 5600 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9725 5800 50  0001 C CNN
+F 3 "~" H 9725 5800 50  0001 C CNN
+	1    9725 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR061
+U 1 1 5D9ABB39
+P 9525 5800
+F 0 "#PWR061" H 9525 5650 50  0001 C CNN
+F 1 "+12V" H 9525 5940 50  0000 C CNN
+F 2 "" H 9525 5800 50  0001 C CNN
+F 3 "" H 9525 5800 50  0001 C CNN
+	1    9525 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9525 5900 0    50   Input ~ 0
+O23
+$Comp
+L Connector_Generic:Conn_01x02 J24
+U 1 1 5D9ABB44
+P 9725 6175
+F 0 "J24" H 9725 6275 50  0000 C CNN
+F 1 "Sol" H 9725 5975 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 9725 6175 50  0001 C CNN
+F 3 "~" H 9725 6175 50  0001 C CNN
+	1    9725 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR062
+U 1 1 5D9ABB4E
+P 9525 6175
+F 0 "#PWR062" H 9525 6025 50  0001 C CNN
+F 1 "+12V" H 9525 6315 50  0000 C CNN
+F 2 "" H 9525 6175 50  0001 C CNN
+F 3 "" H 9525 6175 50  0001 C CNN
+	1    9525 6175
+	1    0    0    -1  
+$EndComp
+Text GLabel 9525 6275 0    50   Input ~ 0
+O24
+$Comp
+L Connector_Generic:Conn_01x02 J26
+U 1 1 5D9ABB59
+P 10250 3475
+F 0 "J26" H 10250 3575 50  0000 C CNN
+F 1 "Sol" H 10250 3275 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 10250 3475 50  0001 C CNN
+F 3 "~" H 10250 3475 50  0001 C CNN
+	1    10250 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR065
+U 1 1 5D9ABB63
+P 10050 3475
+F 0 "#PWR065" H 10050 3325 50  0001 C CNN
+F 1 "+12V" H 10050 3615 50  0000 C CNN
+F 2 "" H 10050 3475 50  0001 C CNN
+F 3 "" H 10050 3475 50  0001 C CNN
+	1    10050 3475
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 3575 0    50   Input ~ 0
+O25
+$Comp
+L Connector_Generic:Conn_01x02 J27
+U 1 1 5D9ABB6E
+P 10250 3850
+F 0 "J27" H 10250 3950 50  0000 C CNN
+F 1 "Sol" H 10250 3650 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 10250 3850 50  0001 C CNN
+F 3 "~" H 10250 3850 50  0001 C CNN
+	1    10250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR066
+U 1 1 5D9ABB78
+P 10050 3850
+F 0 "#PWR066" H 10050 3700 50  0001 C CNN
+F 1 "+12V" H 10050 3990 50  0000 C CNN
+F 2 "" H 10050 3850 50  0001 C CNN
+F 3 "" H 10050 3850 50  0001 C CNN
+	1    10050 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 3950 0    50   Input ~ 0
+O26
+$Comp
+L Connector_Generic:Conn_01x02 J28
+U 1 1 5D9ABB83
+P 10250 4250
+F 0 "J28" H 10250 4350 50  0000 C CNN
+F 1 "Sol" H 10250 4050 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 10250 4250 50  0001 C CNN
+F 3 "~" H 10250 4250 50  0001 C CNN
+	1    10250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR067
+U 1 1 5D9ABB8D
+P 10050 4250
+F 0 "#PWR067" H 10050 4100 50  0001 C CNN
+F 1 "+12V" H 10050 4390 50  0000 C CNN
+F 2 "" H 10050 4250 50  0001 C CNN
+F 3 "" H 10050 4250 50  0001 C CNN
+	1    10050 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 4350 0    50   Input ~ 0
+O27
+$Comp
+L Connector_Generic:Conn_01x02 J29
+U 1 1 5D9ABB98
+P 10250 4625
+F 0 "J29" H 10250 4725 50  0000 C CNN
+F 1 "Sol" H 10250 4425 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 10250 4625 50  0001 C CNN
+F 3 "~" H 10250 4625 50  0001 C CNN
+	1    10250 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR068
+U 1 1 5D9ABBA2
+P 10050 4625
+F 0 "#PWR068" H 10050 4475 50  0001 C CNN
+F 1 "+12V" H 10050 4765 50  0000 C CNN
+F 2 "" H 10050 4625 50  0001 C CNN
+F 3 "" H 10050 4625 50  0001 C CNN
+	1    10050 4625
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 4725 0    50   Input ~ 0
+O28
+$Comp
+L Connector_Generic:Conn_01x02 J30
+U 1 1 5D9ABBAD
+P 10250 5025
+F 0 "J30" H 10250 5125 50  0000 C CNN
+F 1 "Sol" H 10250 4825 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 10250 5025 50  0001 C CNN
+F 3 "~" H 10250 5025 50  0001 C CNN
+	1    10250 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR069
+U 1 1 5D9ABBB7
+P 10050 5025
+F 0 "#PWR069" H 10050 4875 50  0001 C CNN
+F 1 "+12V" H 10050 5165 50  0000 C CNN
+F 2 "" H 10050 5025 50  0001 C CNN
+F 3 "" H 10050 5025 50  0001 C CNN
+	1    10050 5025
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 5125 0    50   Input ~ 0
+O29
+$Comp
+L Connector_Generic:Conn_01x02 J31
+U 1 1 5D9ABBC2
+P 10250 5400
+F 0 "J31" H 10250 5500 50  0000 C CNN
+F 1 "Sol" H 10250 5200 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 10250 5400 50  0001 C CNN
+F 3 "~" H 10250 5400 50  0001 C CNN
+	1    10250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR070
+U 1 1 5D9ABBCC
+P 10050 5400
+F 0 "#PWR070" H 10050 5250 50  0001 C CNN
+F 1 "+12V" H 10050 5540 50  0000 C CNN
+F 2 "" H 10050 5400 50  0001 C CNN
+F 3 "" H 10050 5400 50  0001 C CNN
+	1    10050 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 5500 0    50   Input ~ 0
+O30
+$Comp
+L Connector_Generic:Conn_01x02 J32
+U 1 1 5D9ABBD7
+P 10250 5800
+F 0 "J32" H 10250 5900 50  0000 C CNN
+F 1 "Sol" H 10250 5600 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 10250 5800 50  0001 C CNN
+F 3 "~" H 10250 5800 50  0001 C CNN
+	1    10250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR071
+U 1 1 5D9ABBE1
+P 10050 5800
+F 0 "#PWR071" H 10050 5650 50  0001 C CNN
+F 1 "+12V" H 10050 5940 50  0000 C CNN
+F 2 "" H 10050 5800 50  0001 C CNN
+F 3 "" H 10050 5800 50  0001 C CNN
+	1    10050 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 5900 0    50   Input ~ 0
+O31
+$Comp
+L Connector_Generic:Conn_01x02 J33
+U 1 1 5D9ABBEC
+P 10250 6175
+F 0 "J33" H 10250 6275 50  0000 C CNN
+F 1 "Sol" H 10250 5975 50  0000 C CNN
+F 2 "Pluralsight:ScrewTerm_282834-2" H 10250 6175 50  0001 C CNN
+F 3 "~" H 10250 6175 50  0001 C CNN
+	1    10250 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR072
+U 1 1 5D9ABBF6
+P 10050 6175
+F 0 "#PWR072" H 10050 6025 50  0001 C CNN
+F 1 "+12V" H 10050 6315 50  0000 C CNN
+F 2 "" H 10050 6175 50  0001 C CNN
+F 3 "" H 10050 6175 50  0001 C CNN
+	1    10050 6175
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 6275 0    50   Input ~ 0
+O32
+$Comp
+L Connector_Generic:Conn_01x01 J34
+U 1 1 5DA2F9BD
+P 8750 1000
+F 0 "J34" H 8750 1100 50  0000 C CNN
+F 1 "Power" H 8750 900 50  0000 C CNN
+F 2 "Pluralsight:SolderPadPower" H 8750 1000 50  0001 C CNN
+F 3 "~" H 8750 1000 50  0001 C CNN
+	1    8750 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J35
+U 1 1 5DA30EB5
+P 8750 1300
+F 0 "J35" H 8750 1400 50  0000 C CNN
+F 1 "Power" H 8750 1200 50  0000 C CNN
+F 2 "Pluralsight:SolderPadPower" H 8750 1300 50  0001 C CNN
+F 3 "~" H 8750 1300 50  0001 C CNN
+	1    8750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR073
+U 1 1 5DA31D78
+P 8550 1000
+F 0 "#PWR073" H 8550 850 50  0001 C CNN
+F 1 "+12V" H 8550 1140 50  0000 C CNN
+F 2 "" H 8550 1000 50  0001 C CNN
+F 3 "" H 8550 1000 50  0001 C CNN
+	1    8550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR074
+U 1 1 5DA32F40
+P 8550 1300
+F 0 "#PWR074" H 8550 1050 50  0001 C CNN
+F 1 "GND" H 8550 1150 50  0000 C CNN
+F 2 "" H 8550 1300 50  0001 C CNN
+F 3 "" H 8550 1300 50  0001 C CNN
+	1    8550 1300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
