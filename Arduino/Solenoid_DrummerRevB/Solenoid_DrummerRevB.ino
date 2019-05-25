@@ -28,6 +28,7 @@ void setup() {
   for (int s = 0; s < NUM_SOLENOIDS; s++)
   {
     pinMode(solenoidPins[s], OUTPUT);
+    digitalWrite(solenoidPins[2], LOW);
   }
  
   MIDI.begin(MIDI_CHANNEL_OMNI); //listen to all MIDI channels
